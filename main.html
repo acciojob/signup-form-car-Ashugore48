@@ -8,8 +8,60 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <script type="text/javascript" src="./script.js"></script>
+	<form>
+		<div>
+			<label for="name">Name* : </label><br>
+			<input type="text" id="name" class="name" required><br><br>
+			<label for="email">Email* : </label><br>
+			<input type="email" id="email" class="email" required><br>
+			
+		</div>
+		<div>
+		<p>Gender* :</p>
+		<input type="radio" name="gender" id="male" value="Male" required>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="female" required>
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="other" required>
+		<label for="other">other</label>
+		</div>
+		<div>
+			<br>
+			<label for="cars"> Car Brands* : </label>
+			<select name="car" id="cars" required>
+				<option value="BMW"> BMW </option>
+				<option value="Audi"> Audi </option>
+				<option value="Mercedez"> Mercedez </option>
+			</select>
+		</div>
+		<div>
+			<br>
+			<label for="age"> Age* :</label>
+			<input type="number" name="age" size="10">
+		</div>
+		<div>
+			<br>
+			<label for="dob"> DOB* :</label>
+			<input type="date" name="dob">
+			
+		</div>
+		<div>
+			<br>
+			<label for="PH"> Phone Number :</label>
+			<input type="number" name="PH">
+		</div>
+		<div>
+			<br>
+			<label for="password"> Password* :</label>
+			<input type="password" name="password" required>
+		</div>
+		<div>
+			<br>
+			<input type="submit">
+		</div>
+		
+	</form>
 
 </body>
 
